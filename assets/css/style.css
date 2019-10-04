@@ -12,21 +12,50 @@ body {
 }
 
 .name{
-    padding: 15px;
+    padding: 12px;
     background-color: #4aaaa5;
     float: left;
     color: #ffffff;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 12%;
+    margin-left: 11%;
     
 }
 
 .nav{
+    float: right;
+    margin-right: 150px;
+}
+
+.nav-link{
     color: #999;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    float: right;
-    margin-right: 150px;
+}
+
+h3{
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    
+}
+
+.btn{
+    background-color: #4aaaa5; 
+    border: #4aaaa5;
+    font-size: 1.1em;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    border-top: 15px solid #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    height: 70px;
+    
 }
 
